@@ -1,0 +1,155 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Style the password list section */
+.password-list {
+    margin-bottom: 20px;
+}
+
+.password-list h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the table that displays stored passwords */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Style the buttons in the password list section */
+.button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.button:hover {
+    background-color: #2674b6;
+}
+
+/* Style the add password section */
+.add-password h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the form for adding a new password entry */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: border 0.3s; /* Add a smooth transition effect for input fields */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #3498db; /* Change the border color on focus */
+}
+
+.button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.button[type="submit"]:hover {
+    background-color: #2674b6;
+}
+
+/* Style the footer (customize as needed) */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+
+/* Add these styles to your existing CSS file */
+footer {
+    text-align: center;
+    padding: 6px 0;
+    background: #3498db;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icons li {
+    margin-right: 20px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}

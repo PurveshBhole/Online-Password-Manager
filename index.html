@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header>
+        <h1>Password Manager</h1>
+    </header>
+
+    <main>
+        <section class="password-list">
+            <h2>Your Passwords</h2>
+            <!-- Add a table or list to display the stored passwords -->
+            <table>
+                <tr>
+                    <th>Website</th>
+                    <th>Username</th>
+                    <th>Password</th>
+                    <th>Actions</th>
+                </tr>
+                <!-- You can dynamically generate rows for each stored password here -->
+                <tr>
+                    <td>example.com</td>
+                    <td>john.doe@example.com</td>
+                    <td>**</td>
+                    <td>
+                        <button>Edit</button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section class="add-password">
+            <h2>Add New Password</h2>
+            <!-- Create a form for adding a new password entry -->
+            <form>
+                <label for="website">Website:</label>
+                <input type="text" id="website" name="website" required>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Add Password</button>
+            </form>
+        </section>
+    </main>
+    <!-- Inside the <footer> tag in your HTML -->
+    <footer>
+        <div class="footer-content">
+            <p> &copy; 2023 Password Manager</p>
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/viitpu/?ref=bookmarks" target="_blank"><img
+                            src="/img/facebook.avif" alt="Facebook"></a></li>
+                <li><a href="https://twitter.com/viit_pune" target="_blank"><img src="/img/twitter.png"
+                            alt="Twitter"></a></li>
+                <li><a href="https://www.linkedin.com/school/viitpune/?viewAsMember=true" target="_blank"><img
+                            src="/img/linkedin.jpg" alt="LinkedIn"></a></li>
+                <li><a href="https://www.instagram.com/viitpuneofficial/" target="_blank"><img src="/img/instagram.avif"
+                            alt="instagram"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
